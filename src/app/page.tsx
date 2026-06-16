@@ -23,11 +23,7 @@ export default function Home() {
         <Flex position="absolute" zIndex={1} w="100vw" h="100vh" bgColor="blackAlpha.400/90" />
 
         <ChakraImage zIndex={0} position="absolute" w="100vw" h="100vh" asChild>
-          <NextImage 
-            src="/assets/hero-car.jpg" 
-            alt="AutoShine" 
-            fill 
-          />
+          <NextImage src={heroCar} alt="AutoShine" />
         </ChakraImage>
 
         <VStack zIndex={2} maxW="2xl" align="start" position="relative" px={6} gap={0}>
